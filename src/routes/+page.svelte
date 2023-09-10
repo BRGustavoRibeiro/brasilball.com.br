@@ -7,12 +7,20 @@
 	<title>Brasilball</title>
 </svelte:head>
 
+<div>
+	<img alt="Brasilball" src="ball.png" width="200px" />
+</div>
+
 <h1>Brasilball</h1>
 
 <div>
 	<ul class="menu glass w-36 rounded-box">
 		<li>
-			<a href="/discord" class="flex justify-between w-full font-bold">
+			<a
+				href="https://discord.gg/w9vkYWe"
+				target="_blank"
+				class="flex justify-between w-full font-bold"
+			>
 				<Icon icon="fa6-brands:discord" width={25} />
 				Discord
 			</a>
