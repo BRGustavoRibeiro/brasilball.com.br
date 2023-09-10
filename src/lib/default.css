@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Aileron', sans-serif;
+}
+
+.container {
+	@apply max-w-2xl mx-auto;
+}
